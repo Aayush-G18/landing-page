@@ -9,8 +9,8 @@ body{
 }
 ul{
     list-style-type: none;
-    font-size: 18px;
-    color:#F9FAF8
+    font-size: 24px;
+    color:#F9FAF8;
 }
 .leftside div{
     font-size: 48px;
@@ -22,6 +22,7 @@ ul{
 a{
     text-decoration: none;
     color:white;
+    margin:0.5em;
 }
 .footer{
     background-color: #3882F6;
@@ -55,7 +56,7 @@ button{
 }
 .top{
     display: flex;
-    gap:60rem;
+    gap:50rem;
     margin-bottom: 32px;
     flex:1;
     margin-left:16rem;
