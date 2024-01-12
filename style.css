@@ -57,8 +57,9 @@ button{
     display: flex;
     flex:1;
     justify-content:space-evenly;
-    margin-left:4rem;
-    margin-right:4rem;
+    margin-left:8rem;
+    margin-right:8rem;
+    margin-bottom: 4rem;
 }
 
 .info{
@@ -66,4 +67,11 @@ button{
     font-weight: bolder;
     color:#1F2937;
     text-align: center;
+}
+.quote{
+    text-align: center;
+    font-size:36px;
+    font-style: italic;
+    font-weight:lighter;
+    padding:8px 16rem;
 }
