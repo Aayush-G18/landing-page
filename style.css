@@ -31,7 +31,7 @@ a{
 }
 
 .card>img {
-    border: 2px solid #3882F6;   
+    border: 2px solid #3882F6; 
 }
 button{
     background-color: #3882F6;
@@ -39,12 +39,12 @@ button{
     text-align: center;
     padding:4px;
     border:1px solid white;
-    border-radius:4px;
+    border-radius:6px;
     font-size: 16px;
 }
 .top{
     display: flex;
-    gap:62rem;
+    gap:60rem;
     margin-bottom: 64px;
     flex:1;
     margin-left:16rem;
@@ -52,4 +52,16 @@ button{
 .head-content{
     display: flex;
     justify-content: space-evenly;
+}
+.cards{
+    display: flex;
+    flex:1;
+    justify-content:space-around;
+}
+
+.info{
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
 }
