@@ -1,7 +1,7 @@
 .header{
     background-color:#1F2937 ;
     color:white;
-    /* gap:16px; */
+    
 }
 body{
     margin:0px;
@@ -25,6 +25,15 @@ a{
 }
 .footer{
     background-color: #3882F6;
+    color:white;
+    font-size:24px;
+    text-align: center;
+    border-radius: 8px;
+    margin:4rem 14rem;
+    padding:8px;
+    display:flex;
+    justify-content: space-evenly;
+
 }
 .quote{
     background-color:#E5E7EB ;
@@ -40,7 +49,9 @@ button{
     padding:4px;
     border:1px solid white;
     border-radius:6px;
-    font-size: 16px;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
 }
 .top{
     display: flex;
@@ -74,4 +85,8 @@ button{
     font-style: italic;
     font-weight:lighter;
     padding:8px 16rem;
+}
+.footer button{
+    height:5vh;
+    align-self: center;
 }
