@@ -1,0 +1,10 @@
+.group1 ~ div  {
+    background-color: red;
+}
+button{
+    font-size: 2rem;
+}
+button:focus{                           
+    background-color: blue;
+    font-size: 4rem;
+}
